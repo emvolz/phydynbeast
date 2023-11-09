@@ -1,0 +1,12 @@
+Package: phydynbeast
+Type: Package
+Title: Configure model-based phylodynamic analyses for BEAST
+Version: 0.1.0
+Date: 2023-11-09
+Author: Erik Volz 
+Maintainer: Erik Volz <erik.volz@gmail.com>
+Description: This package allows users to construct complex compartmental models for fitting with the BEAST phylogenetics software. The model is specified as a list of equations and a list of parameters that specify how different populations should be interpreted within a population-genetics framework. For more information on model syntax, see \url{https://github.com/mrc-ide/PhyDyn}.
+License: GPL-2
+Depends: xml2 (>= 1.3.5),glue,rlang
+Suggests: phydynR
+RoxygenNote: 7.2.2
